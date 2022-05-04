@@ -62,7 +62,7 @@ header .subtitle-header {
 
 #information .container {
     max-width: 430px;
-    margin: auto;    
+    margin: 0 auto;    
     background-color: white;
 }
 
@@ -71,6 +71,17 @@ header .subtitle-header {
     max-width: auto;
     background-color: white;
     padding: 0px 10px;
+    margin: 25px auto;
+}
+
+#information #tribute-info {
+    padding-top: 1px;
+}
+
+#information #experiments {    
+    margin-top: 20px;
+    border: none; border-top: 2px dotted rgb(202, 200, 200);
+    border-width: 40%;    
 }
 
 #information img {
@@ -79,10 +90,9 @@ header .subtitle-header {
 }
 
 #information h4 {
-    padding-top: 10px;
-    margin-bottom: 0px;
     font-size: 20px;
     text-align: center;
+    margin: 10px auto;
 }
 
 #information p {
@@ -97,7 +107,7 @@ header .subtitle-header {
 /* ------ Footer section ------ */
 
 footer .container {
-    max-width: 400px;  
+    max-width: auto;  
     margin: 0 auto;  
     padding: 0 10px;
     text-align: center;
@@ -114,6 +124,16 @@ footer .container {
 
     #information .note {        
         border-radius: 2%;
+        padding-top: 0px;
+    }
+
+    #information #experiments {
+        margin-top: auto;
+        border: none;
+    }
+
+    #information h4 {
+        margin-bottom: 0px;
     }
 }
 
