@@ -95,6 +95,10 @@ header .subtitle-header {
     margin: 10px auto;
 }
 
+#information #experiments h4{
+    padding-top: 12px;
+}
+
 #information p {
     text-align: justify;
 }
@@ -134,10 +138,6 @@ footer .container {
 
     #information h4 {
         margin-bottom: 0px;
-    }
-
-    #information #experiments h4{
-        padding-top: 12px;
     }
 }
 
