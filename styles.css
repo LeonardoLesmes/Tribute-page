@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(228, 226, 226);    
+}
+
+body {
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    background-color: rgb(228, 226, 226);
+}
+
+figcaption {
+    padding-top: 5px;
+    padding-bottom: 13px;
+    text-align: center;
+    font-size: 13px;
+
+}
+
+/* ------ Header ------ */
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .title-header {
+    margin: 0;
+    padding-top: 10px;    
+    font-size: 30px;  
+    font-weight: 400;  
+}
+
+header .subtitle-header {
+    font-style: italic;
+}
+
+/* ------ Main image ------ */
+
+#img-div .container {
+    max-width: 400px;
+    height: auto;
+    margin: auto;
+}
+
+/* Responsive image*/
+#img-div img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+}
+
+/* ------ Information section ------ */
+
+#information .container {
+    max-width: 430px;
+    margin: auto;    
+    background-color: white;
+}
+
+#information .note {
+    width: 100%;
+    max-width: auto;
+    background-color: white;
+    padding: 0px 10px;
+}
+
+#information img {
+    max-width: 100%;
+    height: auto;    
+}
+
+#information h4 {
+    padding-top: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#information p {
+    text-align: justify;
+}
+
+#information ul {
+    padding-left: 20px;
+    text-align: justify;
+}
+
+/* ------ Footer section ------ */
+
+footer .container {
+    max-width: 400px;  
+    margin: 0 auto;  
+    padding: 0 10px;
+    text-align: center;
+}
+
+@media (min-width: 430px) {
+
+    /* ------ Information section ------ */
+
+    #information .container {
+        max-width: 400px;
+        background-color: rgb(228, 226, 226);
+    }
+
+    #information .note {        
+        border-radius: 2%;
+    }
+}
+
+@media (min-width: 860px) {
+
+    /* ------ Information section ------ */
+
+    #information .container {
+        max-width: 900px;
+        display: flex;
+        align-items: flex-start;
+        margin: 30px auto;
+    }
+
+    #information .note {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #information h4 {
+        margin-top: 0;
+    }
+
+    /* ------ Footer section ------ */
+
+    footer .container { 
+        max-width: 900px;  
+        text-align: center;
+    }
+}
+
