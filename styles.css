@@ -135,6 +135,10 @@ footer .container {
     #information h4 {
         margin-bottom: 0px;
     }
+
+    #information #experiments h4{
+        padding-top: 12px;
+    }
 }
 
 @media (min-width: 860px) {
@@ -158,6 +162,11 @@ footer .container {
     #information h4 {
         margin-top: 10px;
     }
+
+    #information #experiments h4{
+        padding-top: 0px;
+    }
+
     #information ul {
         padding-left: 20px;        
     }
