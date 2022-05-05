@@ -35,10 +35,12 @@ header .title-header {
     padding-top: 10px;    
     font-size: 30px;  
     font-weight: 400;  
+    text-align: center;
 }
 
 header .subtitle-header {
     font-style: italic;
+    text-align: center;
 }
 
 /* ------ Main image ------ */
@@ -126,6 +128,7 @@ footer .container {
     #information .note {        
         border-radius: 2%;
         padding-top: 0px;
+        font-size: 20px;
     }
 
     #information #experiments {
@@ -134,6 +137,7 @@ footer .container {
     }
 
     #information h4 {
+        font-size: 25px;
         margin-bottom: 0px;
     }
 }
