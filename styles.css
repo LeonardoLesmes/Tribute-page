@@ -147,9 +147,13 @@ footer .container {
         font-size: 3.2vw;
     }
 
-    #information #experiments {
+    #information #experiments {        
         margin-top: auto;
         border: none;
+    }
+
+    #information ul {
+        padding-left: 20px;
     }
 
     #information h4 {
