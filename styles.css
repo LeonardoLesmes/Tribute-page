@@ -62,7 +62,7 @@ header .subtitle-header {
 /* ------ Information section ------ */
 
 #information .container {
-    max-width: 430px;
+    max-width: 456px;
     margin: 0 auto;    
     background-color: white;
 }
@@ -111,6 +111,10 @@ header .subtitle-header {
 
 /* ------ Footer section ------ */
 
+footer {    
+    font-size: 15px;
+}
+
 footer .container {
     max-width: auto;  
     margin: 0 auto;  
@@ -118,7 +122,19 @@ footer .container {
     text-align: center;
 }
 
-@media (min-width: 430px) {
+@media (min-width: 456px) {
+
+    header .title-header {    
+        font-size: 6.2vw; 
+    }
+    
+    header .subtitle-header {
+        font-size: 3.2vw;
+    }
+
+    figcaption {
+        font-size: 2.8vw;
+    }
 
     #information .container {
         max-width: 400px;
@@ -128,7 +144,7 @@ footer .container {
     #information .note {        
         border-radius: 2%;
         padding-top: 0px;
-        font-size: 20px;
+        font-size: 3.2vw;
     }
 
     #information #experiments {
@@ -137,10 +153,15 @@ footer .container {
     }
 
     #information h4 {
-        font-size: 25px;
+        font-size: 3.7vw;
         margin-bottom: 0px;
     }
+
+    footer {
+        font-size: 3.0vw;
+    }
 }
+
 
 @media (min-width: 458px) {
 
@@ -154,17 +175,80 @@ footer .container {
     
 }
 
-@media (min-width: 860px) {
+@media (min-width: 600px) {
 
-    #img-div .container {
-        max-width: 70vh;
+    header .title-header {    
+        font-size: 6vw; 
+    }
+    
+    header .subtitle-header {
+        font-size: 3vw;
     }
 
+    figcaption {
+        font-size: 2.6vw;
+    }
 
-    /* ------ Information section ------ */
+    #information .note {
+        font-size: 3vw;
+    }
+
+    #information h4 {
+        font-size: 3.5vw;
+    }
+
+    footer {
+        font-size: 2.4vw;
+    }
+}
+
+@media (min-width: 720px) {
+
+    header .title-header {    
+        font-size: 5.7vw; 
+    }
+    
+    header .subtitle-header {
+        font-size: 2.7vw;
+    }
+
+    figcaption {
+        font-size: 2.3vw;
+    }
+
+    #information .note {
+        font-size: 2.7vw;
+    }
+
+    #information h4 {
+        font-size: 3.2vw;
+    }
+
+    footer {
+        font-size: 2.5vw;
+    }
+}
+
+@media (min-width: 860px) {
+
+    header .title-header {    
+        font-size: 3.8vw; 
+    }
+    
+    header .subtitle-header {
+        font-size: 1.8vw;
+    }
+
+    figcaption {
+        font-size: 1.6vw;
+    }
+
+    #img-div .container {
+        max-width: 40vw;
+    }
 
     #information .container {
-        max-width: 900px;
+        max-width: 1400px;
         display: flex;
         align-items: flex-start;
         margin: 30px auto;
@@ -172,28 +256,69 @@ footer .container {
 
     #information .note {
         width: 100%;
-        max-width: 400px;
+        max-width: 150vw;
         height: auto;
         margin: 0 auto;
+        font-size: 2vw;
     }
 
     #information h4 {
         margin-top: 10px;
+        font-size: 2.2vw;
+    }
+
+    #information #tribute-info {
+        margin-left: 6vh;
+        margin-right: 7.5vh;
+    }
+
+    #information #experiments {
+        margin-left: 7.5vh; 
+        margin-right: 6vh;
     }
 
     #information #experiments h4{
-        padding-top: 0px;
+        padding-top: 0px;               
     }
 
     #information ul {
         padding-left: 20px;        
+    } 
+    
+    footer {
+        font-size: 1.8vw;
     }
 
-    /* ------ Footer section ------ */
-
     footer .container { 
-        max-width: 900px;  
+        max-width: 100%;  
         text-align: center;
-    }    
+    }  
+}
+
+@media (min-width: 1000px) {
+
+    header .title-header {    
+        font-size: 2.9vw; 
+    }
+    
+    header .subtitle-header {
+        font-size: 1.4vw;
+    }
+
+    figcaption {
+        font-size: 1.1vw;
+    }
+
+    #information .note {
+        font-size: 1.5vw;
+    }
+
+    #information h4 {
+        font-size: 1.7vw;
+    }
+
+    footer {
+        font-size: 1.4vw;
+    }
 }
 
