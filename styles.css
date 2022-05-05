@@ -20,7 +20,6 @@ figcaption {
     padding-bottom: 13px;
     text-align: center;
     font-size: 13px;
-
 }
 
 /* ------ Header ------ */
@@ -119,8 +118,6 @@ footer .container {
 
 @media (min-width: 430px) {
 
-    /* ------ Information section ------ */
-
     #information .container {
         max-width: 400px;
         background-color: rgb(228, 226, 226);
@@ -141,7 +138,24 @@ footer .container {
     }
 }
 
+@media (min-width: 458px) {
+
+    #img-div .container {
+        max-width: 88%;
+    }
+
+    #information .container {
+        max-width: 88%;
+    }
+    
+}
+
 @media (min-width: 860px) {
+
+    #img-div .container {
+        max-width: 70vh;
+    }
+
 
     /* ------ Information section ------ */
 
@@ -176,6 +190,6 @@ footer .container {
     footer .container { 
         max-width: 900px;  
         text-align: center;
-    }
+    }    
 }
 
